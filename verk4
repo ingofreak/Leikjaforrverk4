@@ -1,0 +1,19 @@
+1. Útskýrðu muninn á 2d og 3d leikjagerð í Unity?
+  Myndavélinn í 2d umhverfi er vanalega föst og hreyfist upp,niður, hægri og vinstri. Í 3d þá geturu hreyft myndavélinna miklu meira.
+  Í 2d þá notaru sprites í staðinn fyrir meshes, það er hægt að nota meshes í 2d en það er oftast notað í 2.5d.
+  Physics í 2d og 3d er allt öðruvísi, það er mikið einfaldara í 2d miðað við í 3D.
+
+2. Berðu saman og tilgreindu amk. 3 mismunandi tegundir af 2d tölvuleikjum.
+  Platformer, beat-em ups og adventure.
+  í platformer er markmiðið meira um að hreyfa kallinn frá A til B.
+  í beat-em ups er markmiðið meira um að berja vonda kalla til að komast frá A til B.
+  Adventure getur verið blanda af platformer og beat-em ups. Hversu góður þú ert að hreyfa kallinn og berjast er betra.
+
+3. Hvað er og hvenær er heppilegt að nota 2.5d í tölvuleikjagerð?
+  2.5d er blanda af 2d og 3d. Semsagt að það notar bæði sprites og meshes til að búa til "effect" að heimurinn er 3d.
+  gott að nota 2.5d fyrir umhverfi og background effects.
+
+4.Hvers vegna að nota 4d í tölvuleikjagerð? Komdu með dæmi um tölvuleiki í 4d og útskýrðu 4d
+virkni hans.
+  Til að búa til nýja leið til að spila tölvu leiki. Þú getur búið til 4d tölvuleik sem er öðruvísi fyrir hvern einasta spilara.
+  
