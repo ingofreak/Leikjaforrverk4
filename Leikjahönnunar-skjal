@@ -1,1 +1,140 @@
+Summary
+	Sum up your game idea in 2 sentences. A kind of elevator pitch. Keep it simple!
+  Flýrð úr hrynjandi kastala áður en þú kremst undir kastalanum.
+Gameplay
+	What should the gameplay be like? What is the goal of the game, and what kind of obstacles are in the way? What tactics should the player use to overcome them?
+  ekki lenda undir hrynjandi hlutum og passaðu þig á eldinum. Kemstu út áður en það er orðið of seint?
+Mindset
+	What kind of mindset do you want to provoke in the player? Do you want them to feel powerful, or weak? Adventurous, or nervous? Hurried, or calm? How do you intend to provoke those emotions?
+  Drífðu þig út áður en þú deyrð.
+
+ 
+Technical________________________________________
+Screens
+1.	Title Screen
+a.	Options
+3.	Game
+4.	End Credits
+(example)
+Controls
+	How will the player interact with the game? Will they be able to choose the controls? What kind of in-game events are they going to be able to trigger, and how? (e.g. pressing buttons, opening doors, etc.)
+  hægri,vinstri eða hopp. Playerinn hleypur sjálfkrafa.
+Mechanics
+	Are there any interesting mechanics? If so, how are you going to accomplish them? Physics, algorithms, etc.
+  allt verður randomized, hver einasta spilun verður öðruvísi. Leikurinn verður erfiðari með tímanum.
+
+ 
+Level Design________________________________________
+(Note : These sections can safely be skipped if they’re not relevant, or you’d rather go about it another way. For most games, at least one of them should be useful. But I’ll understand if you don’t want to use them. It’ll only hurt my feelings a little bit.)
+Themes
+1.	kastali
+a.	Mood
+i.	Panic
+b.	Objects
+i.	Ambient
+1.	eldur
+2.	eldur
+3.	teppi
+4.  kastala veggir(stein veggir)
+5.  eldur
+ii.	Interactive
+1.	eld-úlfur
+2.	eld-Goblins
+3.	eld-Steinar
+2.	eld-Kastali
+a.	Mood
+i.	panic, active.
+b.	Objects
+i.	Ambient
+1.	eldur
+2.	Torches
+3.	Suits of armor sem er brennandi
+ii.	Interactive
+1.	kisstur
+
+ 
+Game Flow
+1.	Playerinn byrjar í kastala.
+2. kastalinn byrjar að hrynja.
+3. eldur.
+4. Playerinn hleypur.
+
+ 
+Development________________________________________
+Abstract Classes / Components
+1.	BasePhysics
+a.	BasePlayer
+b.	BaseEnemy
+c.	BaseObject
+2.	BaseObstacle
+3.	BaseInteractable
+(example)
+ 
+Derived Classes / Component Compositions
+1.	BasePlayer
+a.	PlayerMain
+2.	BaseEnemy
+a.	EnemyFireWolf
+b.	EnemyFireGoblin
+3.	BaseObject
+a.	ObjectRock 
+b.	ObjectChest 
+c.	ObjectGoldCoin (kannski)
+4.	BaseObstacle
+b.	ObstacleWall
+5.	BaseInteractable
+a.	InteractableButton
+ 
+Graphics________________________________________
+Style Attributes
+What kinds of colors will you be using? Do you have a limited palette to work with? A post-processed HSV map/image? Consistency is key for immersion.
+
+What kind of graphic style are you going for? Cartoony? Pixel-y? Cute? How, specifically? Solid, thick outlines with flat hues? Non-black outlines with limited tints/shades? Emphasize smooth curvatures over sharp angles? Describe a set of general rules depicting your style here.
+
+	Well-designed feedback, both good (e.g. leveling up) and bad (e.g. being hit), are great for teaching the player how to play through trial and error, instead of scripting a lengthy tutorial. What kind of visual feedback are you going to use to let the player know they’re interacting with something? That they *can* interact with something?
+
+ 
+Graphics Needed
+1.	Characters
+a.	Human-like
+i.	fire-Goblin
+b.	Other
+i.	fire-wolf 
+a.  teppi
+b.  eldur
+c.	Stone Block
+d.	Stone Bricks
+e.	Tiled Floor
+3.	Ambient
+a.	Torch
+b.	Armored Suit
+4.	Other
+a.	Chest
+b.	Door 
+c.	Gate (maybe)
+
+(Note : If you’re soloing you might not need to define this part, as you can just use the Derived Classes + Themes section as a reference. It’s up to you.)
+
+ 
+Sounds/Music________________________________________
+Style Attributes
+	Again, consistency is key. Define that consistency here. What kind of instruments do you want to use in your music? Any particular tempo, key? Influences, genre? Mood?
+
+Stylistically, what kind of sound effects are you looking for? Do you want to exaggerate actions with lengthy, cartoony sounds (e.g. mario’s jump), or use just enough to let the player know something happened (e.g. mega man’s landing)? Going for realism? You can use the music style as a bit of a reference too.
+	
+	Remember, auditory feedback should stand out from the music and other sound effects so the player hears it well. Volume, panning, and frequency/pitch are all important aspects to consider in both music and sounds - so plan accordingly!
+
+ 
+Sounds Needed
+1.	Effects
+a. eldur
+b. dettandi hlutir
+c. game over
+d. kannski victory
+
+
+Music Needed
+1. spennandi tónlist eða sonic.
+
+(Note : Again, if you’re soloing you might be able to / want to skip this section. It’s up to you.)
 
