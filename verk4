@@ -16,4 +16,7 @@
 4.Hvers vegna að nota 4d í tölvuleikjagerð? Komdu með dæmi um tölvuleiki í 4d og útskýrðu 4d
 virkni hans.
   Til að búa til nýja leið til að spila tölvu leiki. Þú getur búið til 4d tölvuleik sem er öðruvísi fyrir hvern einasta spilara.
+  Til að útskýra 4d, þá þarftu að skilja hvernig mesh virkar. mesh er búið til úr þríhyrningum og sett saman til að búa til hlut,
+  en það er tómt að innan. Það sem 4d notar eru píramítar og er ekki tómt. Heimurinn er þá inní þessu píramíta og þú getur fært heiminn
+  með því að hreyfa þig í 4d. 
   
